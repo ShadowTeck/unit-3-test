@@ -166,11 +166,15 @@ dl {
     text-align: center;
 }
 
+footer {
+    width: 100%;
+}
+
 dl dt {
     margin-bottom: 20px;
 }
-
-nav #bottom {
+/*FIX THIS*/
+nav#bottom {
     background-color: var(--nav-active);
     color: var(--text-color);
     padding: 15px;
@@ -180,7 +184,7 @@ nav #bottom {
     justify-content: center;
 }
 
-nav #bottom ul li {
+nav#bottom ul li a{
     color: white;
 }
 
@@ -193,9 +197,9 @@ footer p {
     padding: 10px 0px 10px 10px;
 }
 
-nav #bottom ul {
-    flex-shrink: 0;
-    flex-grow: 0;
+nav#bottom ul {
+    flex-grow: 1;
+    flex-shrink: 1;
     max-width: 150px;
 }
 
@@ -245,31 +249,31 @@ nav #bottom ul {
     }
 
     nav.top ul li:nth-of-type(2) {
-        background-image: url(images/cw_image01.png);
+        background-image: url(images/cw_image02.png);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     nav.top ul li:nth-of-type(3) {
-        background-image: url(images/cw_image01.png);
+        background-image: url(images/cw_image03.png);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     nav.top ul li:nth-of-type(4) {
-        background-image: url(images/cw_image01.png);
+        background-image: url(images/cw_image04.png);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     nav.top ul li:nth-of-type(5) {
-        background-image: url(images/cw_image01.png);
+        background-image: url(images/cw_image05.png);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     nav.top ul li:nth-of-type(6) {
-        background-image: url(images/cw_image01.png);
+        background-image: url(images/cw_image06.png);
         background-position: center;
         background-repeat: no-repeat;
     }
